@@ -6,6 +6,11 @@
   background-position: center;
   margin: 0 29px 0 0;
   position: relative;
+  padding: 0;
+  border: 0;
+  flex-shrink: 0;
+  background-color: transparent;
+  background-image: url('../../../images/avatar.jpg');
 }
 
 

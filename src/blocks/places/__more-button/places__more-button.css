@@ -1,0 +1,20 @@
+.places__more-button {
+  display: block;
+  margin: 28px auto 0;
+  padding: 14px 36px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  color: #fff;
+  background: transparent;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.places__more-button:hover {
+  opacity: 0.6;
+}
+
+.places__more-button[hidden],
+.places__item[hidden] {
+  display: none;
+}

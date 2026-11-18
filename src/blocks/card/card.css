@@ -8,6 +8,7 @@
 @import url('./__control-button/_type/card__control-button_type_delete.css');
 @import url('./__control-button/_type/card__control-button_type_info.css');
 @import url('./__title/card__title.css');
+@import url('./__priority/card__priority.css');
 
 .card {
   font-family: 'Inter', Arial, sans-serif;
@@ -16,4 +17,8 @@
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+}
+
+.card__info {
+  min-width: 0;
 }
